@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">BerISI</string>
+    <string name="berita_utama">Berita Utama</string>
+    <string name="olahraga">Olahraga</string>
+    <string name="teknologi">Teknologi</string>
+    <string name="bisnis">Bisnis</string>
+    <string name="kesehatan">Kesehatan</string>
+    <string name="hiburan">Hiburan</string>
+    <string name="time">Time</string>
+    <string name="title">Title</string>
+    <string name="copyright_by_berisi">copyright by berisi</string>
+    <string name="sabtu_19_desember_2020">Sabtu, 19 Desember 2020</string>
+    <string name="bagikan">Bagikan</string>
 </resources>
