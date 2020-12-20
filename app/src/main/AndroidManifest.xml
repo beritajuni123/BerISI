@@ -15,27 +15,33 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".EntertaimentActivity"/>
+            android:name=".activities.EntertaimentActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".HealthActivity"/>
+            android:name=".activities.HealthActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".BusinessActivity"/>
+            android:name=".activities.BusinessActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".TechnologyActivity"/>
+            android:name=".activities.TechnologyActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".HeadLineActivity"/>
+            android:name=".activities.HeadLineActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".SportsNewsActivity"/>
+            android:name=".activities.SportsNewsActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".OpenNewsActivity"/>
+            android:name=".activities.OpenNewsActivity"
+            android:screenOrientation="portrait" />
     </application>
-
 </manifest>

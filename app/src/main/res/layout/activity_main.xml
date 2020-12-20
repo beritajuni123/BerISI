@@ -3,20 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <FrameLayout
         android:id="@+id/toolbarMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_banner_hehe_home">
+        android:background="@drawable/bg_home_wave"
+        android:fitsSystemWindows="true">
 
         <RelativeLayout
             android:id="@+id/rlAppName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
         </RelativeLayout>
 
         <com.google.android.material.card.MaterialCardView
@@ -37,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/kalender"
+                    android:src="@drawable/ic_date"
                     tools:ignore="ContentDescription" />
 
                 <TextView
@@ -49,7 +59,7 @@
                     android:layout_marginEnd="25dp"
                     android:layout_toEndOf="@id/imgDate"
                     android:text="@string/sabtu_19_desember_2020"
-                    android:textColor="@color/colortambah1"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="12sp" />
 
             </RelativeLayout>
@@ -58,20 +68,7 @@
 
     </FrameLayout>
 
-    <LinearLayout
-        android:id="@+id/llCurved"
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:layout_below="@+id/toolbarMain"
-        android:background="@drawable/baner"
-        android:orientation="horizontal" />
-
-    <include
-        layout="@layout/item_main_grid"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="74dp"
-        tools:ignore="IncludeLayoutParam" />
+    <include layout="@layout/item_main_grid" />
 
     <TextView
         android:id="@+id/appName"

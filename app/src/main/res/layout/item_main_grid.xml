@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_below="@+id/llCurved">
+    android:layout_below="@+id/toolbarMain">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,15 +36,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/berita_utama_ikon"
-                        app:tint="@android:color/holo_orange_light"
-                        tools:ignore="ContentDescription" />
+                        android:src="@drawable/ic_headlines"
+                        android:tint="@android:color/holo_orange_light" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/berita_utama"
+                        android:text="Berita Utama"
                         android:textColor="@android:color/holo_orange_light"
                         android:textStyle="bold" />
 
@@ -94,15 +91,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/berita_olahraga_ikon"
-                        tools:ignore="ContentDescription"
-                        app:tint="@android:color/holo_red_dark" />
+                        android:src="@drawable/ic_sports"
+                        android:tint="@android:color/holo_red_dark" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/olahraga"
+                        android:text="Olahraga"
                         android:textColor="@android:color/holo_red_dark"
                         android:textStyle="bold" />
 
@@ -158,15 +154,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/berita_teknologi_ikon"
-                        tools:ignore="ContentDescription"
-                        app:tint="@android:color/holo_purple" />
+                        android:src="@drawable/ic_technology"
+                        android:tint="@android:color/holo_purple" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/teknologi"
+                        android:text="Teknologi"
                         android:textColor="@android:color/holo_purple"
                         android:textStyle="bold" />
 
@@ -214,15 +209,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/berita_bisnis_ikon"
-                        tools:ignore="ContentDescription"
-                        app:tint="@android:color/black" />
+                        android:src="@drawable/ic_business"
+                        android:tint="@android:color/black" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/bisnis"
+                        android:text="Bisnis"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -278,15 +272,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/berita_kesehatan_ikon"
-                        tools:ignore="ContentDescription"
-                        app:tint="@android:color/holo_green_dark" />
+                        android:src="@drawable/ic_health"
+                        android:tint="@android:color/holo_green_dark" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/kesehatan"
+                        android:text="Kesehatan"
                         android:textColor="@android:color/holo_green_dark"
                         android:textStyle="bold" />
 
@@ -334,15 +327,14 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/berita_artis_ikon"
-                        tools:ignore="ContentDescription"
-                        app:tint="@color/colorPrimary" />
+                        android:src="@drawable/ic_entertaiment"
+                        android:tint="@color/colorPrimary" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/hiburan"
+                        android:text="Hiburan"
                         android:textColor="@color/colorPrimary"
                         android:textStyle="bold" />
 
